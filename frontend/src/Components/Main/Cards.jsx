@@ -1,4 +1,5 @@
 import React from "react";
+import "./Cards.css";
 import child from "../../assets/child_7.jpg";
 import child_2 from "../../assets/child_2.jpg";
 import child_3 from "../../assets/child_3.jpg";
@@ -6,7 +7,7 @@ import child_3 from "../../assets/child_3.jpg";
 const Cards = () => {
   return (
     <>
-      <div className="d-flex justify-content-between pb-5">
+      <div className="card_container">
         <div class="card" style={{ width: "18rem" }}>
           <img src={child} class="card-img-top" alt="..." />
           <div class="card-body">
